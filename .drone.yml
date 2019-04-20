@@ -12,6 +12,6 @@ steps:
     repo: noppawit/rpi-nginx-certbot-cloudflare
     auto_tag: true
     username:
-      from_secret: docker_username
+      from_secret: DOCKER_USERNAME
     password:
-      from_secret: docker_password
+      from_secret: DOCKER_PASSWORD

@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Create cloudflare credentials file
 mkdir -p /root/.secrets/certbot
 if [ -z $DNS_CLOUDFLARE_EMAIL ] || [ -z $DNS_CLOUDFLARE_API_KEY ]; then
