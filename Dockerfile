@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1.15.12
 
 RUN sed -i "$ a\deb http://deb.debian.org/debian stretch-backports main" /etc/apt/sources.list && \
     apt-get update && \
